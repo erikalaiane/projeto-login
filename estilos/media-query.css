@@ -2,20 +2,24 @@
 
 /*
     Paleta de Cores:
-    verde: 424530
-    amarelo: e09132
-    bege: a58e74
-    bege branco: ffefcd
+    #ddd8d0
+    #a59094
+    #906f70
+    #675b5c
+    #9a7c6f
+    #6e4c3e
+    #6c5b5b
 */
 
-@media screen and (min-width: 768px) and (max-width:992px){
+@media screen and (min-width: 768px) and (max-width:992px){ /*CONFIGURAÇÃO PARA TABLET*/
 
     body{
-        background-image: linear-gradient(to top, #e09132, #0b3f0b);
+        background-image: linear-gradient(to top, #6e4c3e, #906f70);
     }
 
     section#login{
         width: 90vw;
+        height: 340px;
     }
 
     section#login > div#imagem{
@@ -30,18 +34,20 @@
     }
 
     div#formulario > p{
-        font-size:1.2em ;
+        font-size:1em ;
+        margin: 20px 0px;
     }
 }
 
 @media screen and (min-width: 992px){
-
+/*CONFIGURAÇÕES DE DESKTOP*/
     body{
-        background-image: linear-gradient(to top, #e09132, #0b3f0b);
+        background-image: linear-gradient(to top, #6e4c3e, #906f70);
     }
 
     section#login{
         width: 950px;
+        height: 350PX;
     }
 
     section#login > div#imagem{
@@ -60,6 +66,7 @@
     }
 
     div#formulario > p{
-        font-size:1.3em ;
+        font-size:1em ;
+        margin: 20px 0px;
     }
 }
